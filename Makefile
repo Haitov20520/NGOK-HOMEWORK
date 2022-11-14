@@ -4,7 +4,7 @@ FLAGS = -Wall - Werror -Wextra
 all: array
 
 array:
-	@${CC} ${FLAGS} main.c array.c -o array
+	@${CC} main.c array.c -o array
 
 clean:
 	@rm -rf *.out array
